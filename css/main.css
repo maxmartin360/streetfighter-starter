@@ -13,7 +13,6 @@ body {
 .ryu {
 	width: 659px;
 	height: 494px;
-	float: left;
 }
 .ryu-ready, .ryu-still, .ryu-throwing {
 	width: 659px;
@@ -42,10 +41,12 @@ body {
   width: 156px; 
   height: 90px;
   display: none;
-  float: left;
   position: absolute;
   z-index: 10;
+  top: 167px;
+  left: 624px;
+  float: left;
 }
 * {
-  outline: red 1px solid;
+  /*outline: red 1px solid;*/
 }
